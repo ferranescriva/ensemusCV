@@ -1,0 +1,174 @@
+for _, row in df.iterrows():
+    label, color, grup_key = classify(row)
+    nom     = str(row.get('denominacion', ''))
+    tipus   = str(row.get('denominacion_generica_es', ''))
+    munic   = str(row.get('localidad', ''))
+    comarca = str(row.get('comarca', ''))
+    prov    = str(row.get('provincia', ''))
+    cif     = str(row.get('cif', ''))
+    tit     = str(row.get('titular', ''))
+    sa      = row.get('subv_linia_A_2024', None)
+    sb      = row.get('subv_linia_B_2024', None)
+    st      = row.get('subv_total_2024',   None)
+    integrat = str(row.get('centre_integrat', '')).strip().lower() in ('true', '1', 'yes')
+    nota    = str(row.get('nota_relacio', ''))
+
+    border_color = '#000000' if integrat else color
+    border_width = 2.5 if integrat else 1
+
+    popup = "<div style='font-family:Arial;min-width:250px;font-size:12px'>"
+    popup += "<b style='font-size:13px'>" + nom + "</b><br>"
+    popup += "<span style='color:#666;font-size:11px'>" + label + "</span><br>"
+    if integrat:
+        popup += "<span style='background:#FFF3CD;padding:1px 4px;border-radius:3px;font-size:10px'>Registres vinculats</span><br>"
+    popup += "<span style='color:#999;font-size:10px'>Titular: " + tit + "</span><br>"
+    popup += "<hr style='margin:4px 0'/>"
+    popup += "<b>Municipi:</b> " + munic + "<br>"
+    popup += "<b>Comarca:</b> " + comarca + "<br>"
+    popup += "<b>Provincia:</b> " + prov + "<br>"
+    popup += "<b>CIF:</b> " + cif + "<br>"
+    popup += "<hr style='margin:4px 0'/>"
+    popup += "<b>Subvencio Linia A 2024:</b> " + fmt(sa) + "<br>"
+    popup += "<b>Subvencio Linia B 2024:</b> " + fmt(sb) + "<br>"
+    popup += "<b style='color:#B8860B'>Total subvencio publica 2024:</b> " + fmt(st)
+    if nota and nota != 'nan':
+        popup += "<hr style='margin:4px 0'/>"
+        popup += "<span style='color:#555;font-size:10px'>" + nota + "</span>"
+    popup += "</div>"
+
+    folium.CircleMarker(
+        location=[row['latitud'], row['longitud']],
+        radius=radius(st, label),
+        color=border_color,
+        weight=border_width,
+        fill=True,
+        fill_color=color,
+        fill_opacity=0.75,
+        popup=folium.Popup(popup, max_width=320),
+        tooltip=nom + " | " + label + (" [reg.vinculats]" if integrat else "") + " | " + fmt(st),
+    ).add_to(grups[grup_key])
+
+for g in grups.values():
+    g.add_to(m)
+
+folium.LayerControl(collapsed=False).add_to(m)
+
+titol = "<div style='position:fixed;top:10px;left:50%;transform:translateX(-50%);"
+titol += "z-index:1000;background:white;padding:10px 20px;border-radius:8px;"
+titol += "box-shadow:0 2px 8px rgba(0,0,0,0.3);font-family:Arial;font-size:14px;"
+titol += "font-weight:bold;color:#1A3A5C;text-align:center'>"
+titol += "Cartografia de les Ensenyances Musicals - Comunitat Valenciana 2026<br>"
+titol += "<span style='font-size:11px;font-weight:normal;color:#666'>"
+titol += "509 centres - Financament public GVA 2024</span></div>"
+m.get_root().html.add_child(folium.Element(titol))
+
+llegenda = "<div style='position:fixed;bottom:30px;left:20px;z-index:1000;"
+llegenda += "background:white;padding:12px;border-radius:8px;"
+llegenda += "box-shadow:0 2px 6px rgba(0,0,0,0.2);font-family:Arial;font-size:11px'>"
+llegenda += "<b>Tipus de centre</b><br>"
+llegenda += "<span style='color:#8B6914'>&#9679;</span> Conservatori Superior (GVA)<br>"
+llegenda += "<span style='color:#E8A020'>&#9679;</span> Cons. Professional (GVA)<br>"
+llegenda += "<span style='color:#F5C842'>&#9679;</span> Cons. Professional (Municipal)<br>"
+llegenda += "<span style='color:#FAE08A'>&#9679;</span> Cons. Elemental (Municipal)<br>"
+llegenda += "<span style='color:#8B1A1A'>&#9679;</span> Centre Autoritzat Professional<br>"
+llegenda += "<span style='color:#C45C5C'>&#9679;</span> Centre Autoritzat Elemental<br>"
+llegenda += "<span style='color:#2E8B57'>&#9679;</span> Escola Publica de Musica<br>"
+llegenda += "<span style='color:#2E6DA4'>&#9679;</span> Escola Privada de Musica<br>"
+llegenda += "<br><b>Vora negra</b> = Registres vinculats<br>"
+llegenda += "<b>Mida</b> = proporcional a la subvencio 2024</div>"
+m.get_root().html.add_child(folium.Element(llegenda))
+
+out = os.path.join(MAP_DIR, "index.html")
+m.save(out)
+print("Mapa guardat: " + out)
+
+integrats = df['centre_integrat'].astype(str).str.lower().isin(['true','1']).sum()
+print("Centres: " + str(len(df)))
+print("Registres vinculats: " + str(integrats)) for _, row in df.iterrows():
+    label, color, grup_key = classify(row)
+    nom     = str(row.get('denominacion', ''))
+    tipus   = str(row.get('denominacion_generica_es', ''))
+    munic   = str(row.get('localidad', ''))
+    comarca = str(row.get('comarca', ''))
+    prov    = str(row.get('provincia', ''))
+    cif     = str(row.get('cif', ''))
+    tit     = str(row.get('titular', ''))
+    sa      = row.get('subv_linia_A_2024', None)
+    sb      = row.get('subv_linia_B_2024', None)
+    st      = row.get('subv_total_2024',   None)
+    integrat = str(row.get('centre_integrat', '')).strip().lower() in ('true', '1', 'yes')
+    nota    = str(row.get('nota_relacio', ''))
+
+    border_color = '#000000' if integrat else color
+    border_width = 2.5 if integrat else 1
+
+    popup = "<div style='font-family:Arial;min-width:250px;font-size:12px'>"
+    popup += "<b style='font-size:13px'>" + nom + "</b><br>"
+    popup += "<span style='color:#666;font-size:11px'>" + label + "</span><br>"
+    if integrat:
+        popup += "<span style='background:#FFF3CD;padding:1px 4px;border-radius:3px;font-size:10px'>Registres vinculats</span><br>"
+    popup += "<span style='color:#999;font-size:10px'>Titular: " + tit + "</span><br>"
+    popup += "<hr style='margin:4px 0'/>"
+    popup += "<b>Municipi:</b> " + munic + "<br>"
+    popup += "<b>Comarca:</b> " + comarca + "<br>"
+    popup += "<b>Provincia:</b> " + prov + "<br>"
+    popup += "<b>CIF:</b> " + cif + "<br>"
+    popup += "<hr style='margin:4px 0'/>"
+    popup += "<b>Subvencio Linia A 2024:</b> " + fmt(sa) + "<br>"
+    popup += "<b>Subvencio Linia B 2024:</b> " + fmt(sb) + "<br>"
+    popup += "<b style='color:#B8860B'>Total subvencio publica 2024:</b> " + fmt(st)
+    if nota and nota != 'nan':
+        popup += "<hr style='margin:4px 0'/>"
+        popup += "<span style='color:#555;font-size:10px'>" + nota + "</span>"
+    popup += "</div>"
+
+    folium.CircleMarker(
+        location=[row['latitud'], row['longitud']],
+        radius=radius(st, label),
+        color=border_color,
+        weight=border_width,
+        fill=True,
+        fill_color=color,
+        fill_opacity=0.75,
+        popup=folium.Popup(popup, max_width=320),
+        tooltip=nom + " | " + label + (" [reg.vinculats]" if integrat else "") + " | " + fmt(st),
+    ).add_to(grups[grup_key])
+
+for g in grups.values():
+    g.add_to(m)
+
+folium.LayerControl(collapsed=False).add_to(m)
+
+titol = "<div style='position:fixed;top:10px;left:50%;transform:translateX(-50%);"
+titol += "z-index:1000;background:white;padding:10px 20px;border-radius:8px;"
+titol += "box-shadow:0 2px 8px rgba(0,0,0,0.3);font-family:Arial;font-size:14px;"
+titol += "font-weight:bold;color:#1A3A5C;text-align:center'>"
+titol += "Cartografia de les Ensenyances Musicals - Comunitat Valenciana 2026<br>"
+titol += "<span style='font-size:11px;font-weight:normal;color:#666'>"
+titol += "509 centres - Financament public GVA 2024</span></div>"
+m.get_root().html.add_child(folium.Element(titol))
+
+llegenda = "<div style='position:fixed;bottom:30px;left:20px;z-index:1000;"
+llegenda += "background:white;padding:12px;border-radius:8px;"
+llegenda += "box-shadow:0 2px 6px rgba(0,0,0,0.2);font-family:Arial;font-size:11px'>"
+llegenda += "<b>Tipus de centre</b><br>"
+llegenda += "<span style='color:#8B6914'>&#9679;</span> Conservatori Superior (GVA)<br>"
+llegenda += "<span style='color:#E8A020'>&#9679;</span> Cons. Professional (GVA)<br>"
+llegenda += "<span style='color:#F5C842'>&#9679;</span> Cons. Professional (Municipal)<br>"
+llegenda += "<span style='color:#FAE08A'>&#9679;</span> Cons. Elemental (Municipal)<br>"
+llegenda += "<span style='color:#8B1A1A'>&#9679;</span> Centre Autoritzat Professional<br>"
+llegenda += "<span style='color:#C45C5C'>&#9679;</span> Centre Autoritzat Elemental<br>"
+llegenda += "<span style='color:#2E8B57'>&#9679;</span> Escola Publica de Musica<br>"
+llegenda += "<span style='color:#2E6DA4'>&#9679;</span> Escola Privada de Musica<br>"
+llegenda += "<br><b>Vora negra</b> = Registres vinculats<br>"
+llegenda += "<b>Mida</b> = proporcional a la subvencio 2024</div>"
+m.get_root().html.add_child(folium.Element(llegenda))
+
+out = os.path.join(MAP_DIR, "index.html")
+m.save(out)
+print("Mapa guardat: " + out)
+
+integrats = df['centre_integrat'].astype(str).str.lower().isin(['true','1']).sum()
+print("Centres: " + str(len(df)))
+print("Registres vinculats: " + str(integrats))
+
