@@ -119,7 +119,7 @@ El creuament entre els polígons de cobertura i els 539 municipis (deduplicats) 
 Tot el codi de processament és públic i reproducible. Per a reproduir l'anàlisi completa des de zero:
 
 ```bash
-git clone https://github.com/ferranescriva/ensemusCV.git
+git clone https://doi.org/10.5281/zenodo.20041738.git
 cd ensemusCV
 python3 -m venv .venv
 source .venv/bin/activate
@@ -139,4 +139,4 @@ python3 scripts/19_municipis_cobertura.py
 
 ## 7. Com citar
 
-Escrivà-Llorca, F. (2026). *Cartografia de les Ensenyances Musicals a la Comunitat Valenciana* (v0.1) [Dataset, codi i mapa interactiu]. GitHub / Zenodo. https://github.com/ferranescriva/ensemusCV
+Escrivà-Llorca, F. (2026). *Cartografia de les Ensenyances Musicals a la Comunitat Valenciana* (v0.1) [Dataset, codi i mapa interactiu]. GitHub / Zenodo. https://doi.org/10.5281/zenodo.20041738

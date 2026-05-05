@@ -57,7 +57,7 @@ Vegeu [LIMITACIONS.md](LIMITACIONS.md) per a una descripció detallada dels biai
 
 ## Com citar
 
-Escrivà-Llorca, F. (2026). *Cartografia de les Ensenyances Musicals a la Comunitat Valenciana* (v0.1) [Dataset i mapa interactiu]. GitHub. https://github.com/ferranescriva/ensemusCV
+Escrivà-Llorca, F. (2026). Cartografia de les Ensenyances Musicals a la Comunitat Valenciana (ensemusCV) (v0.1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20041738
 
 ## Autor
 
