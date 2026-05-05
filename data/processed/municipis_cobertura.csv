@@ -1,0 +1,540 @@
+codine,nombre,provincia,pop,cobertura
+46213,Requena,Valencia,20254,30min
+46044,Ayora,Valencia,5312,60min
+12080,Morella,Castellón,2430,fora
+03099,Orihuela,Alicante,77414,30min
+03140,Villena,Alicante,33964,30min
+03065,Elche,Alicante,232517,30min
+46254,Venta del ,Valencia,1207,30min
+46118,Enguera,Valencia,4752,60min
+46249,Utiel,Valencia,11531,30min
+46099,Cortes de ,Valencia,814,fora
+46147,Llíria,Valencia,23253,30min
+03014,Alicante,Alicante,334887,30min
+46106,Chelva,Valencia,1489,fora
+46111,Chiva,Valencia,15123,30min
+12004,Alcalà de ,Castellón,6680,30min
+03082,Jijona,Alicante,27604,30min
+12139,Vistabella,Castellón,339,fora
+03089,Monóvar,Alicante,12167,30min
+46170,Mogente,Valencia,4302,60min
+46038,Andilla,Valencia,319,60min
+46036,Alpuente,Valencia,633,60min
+12093,La Pobla d,Castellón,202,fora
+12050,Les Coves ,Castellón,1823,60min
+12072,Lucena del,Castellón,1302,60min
+46071,Bicorp,Valencia,533,60min
+12033,Cabanes,Castellón,2958,60min
+46250,Valencia,Valencia,794288,30min
+46220,Sagunto,Valencia,66140,30min
+12012,Altura,Castellón,3528,30min
+03009,Alcoy,Alicante,58994,30min
+46246,Tous,Valencia,1263,fora
+03105,Pinoso,Alicante,7966,60min
+46184,Ontinyent,Valencia,35347,30min
+46247,Tuéjar,Valencia,1116,60min
+46115,Dos Aguas,Valencia,376,60min
+12014,Ares del M,Castellón,186,fora
+46261,Yátova,Valencia,2067,60min
+12051,Culla,Castellón,495,60min
+03053,Castalla,Alicante,10124,30min
+46077,Buñol,Valencia,9408,30min
+12115,El Toro,Castellón,256,60min
+46229,Siete Agua,Valencia,1154,30min
+46239,Teresa de ,Valencia,636,fora
+12040,Castellón ,Castellón,171728,30min
+46017,Alzira,Valencia,44352,30min
+12130,Villahermo,Castellón,489,fora
+46092,Castielfab,Valencia,317,fora
+12084,Onda,Castellón,24859,30min
+12104,Segorbe,Castellón,8978,30min
+46167,Millares,Valencia,345,60min
+12042,Catí,Castellón,721,60min
+03104,Petrer,Alicante,34276,30min
+46144,Jarafuel,Valencia,754,60min
+46097,Cofrentes,Valencia,1130,60min
+03059,Crevillent,Alicante,28952,30min
+46232,Sinarcas,Valencia,1125,60min
+46001,Ademuz,Valencia,1042,fora
+03043,Biar,Alicante,3671,30min
+12138,Vinaròs,Castellón,28682,30min
+46072,Bocairent,Valencia,4195,30min
+12005,L'Alcora,Castellón,10405,30min
+12129,Villafranc,Castellón,2200,fora
+12044,Cervera de,Castellón,575,30min
+46142,Jalance,Valencia,830,60min
+12127,Vallibona,Castellón,69,fora
+46235,Sueca,Valencia,27479,30min
+46080,Camporrobl,Valencia,1191,60min
+46194,Picassent,Valencia,20942,30min
+46262,La Yesa,Valencia,229,60min
+46128,La Font de,Valencia,2038,60min
+12052,Chert,Castellón,701,60min
+12003,Albocàsser,Castellón,1241,60min
+12105,Sierra Eng,Castellón,976,60min
+12048,Cortes de ,Castellón,318,fora
+12122,Les Useras,Castellón,962,60min
+12026,Benasal,Castellón,1068,fora
+12089,Peñíscola,Castellón,7612,60min
+46248,Turís,Valencia,6646,30min
+12071,Jérica,Castellón,1548,30min
+03088,Monforte d,Alicante,8165,30min
+46041,Aras de lo,Valencia,381,fora
+12096,Rossell,Castellón,937,60min
+03112,Relleu,Alicante,1160,60min
+46145,Xàtiva,Valencia,29231,30min
+03902,Pilar de l,Alicante,21905,30min
+46070,Bétera,Valencia,24272,30min
+03093,Novelda,Alicante,25651,30min
+46124,Fontanars ,Valencia,971,30min
+46148,Loriguilla,Valencia,2025,60min
+46206,Quesa,Valencia,670,60min
+12001,Atzeneta d,Castellón,1276,60min
+46109,Cheste,Valencia,8494,30min
+46259,Villargord,Valencia,589,30min
+12128,Vilafamés,Castellón,1842,60min
+46256,Vilamarxan,Valencia,9717,30min
+46050,Benagéber,Valencia,192,60min
+03133,Torrevieja,Alicante,83337,30min
+12141,Zorita del,Castellón,114,fora
+46133,Gestalgar,Valencia,556,60min
+12036,Canet lo R,Castellón,674,60min
+03019,Aspe,Alicante,20714,30min
+03129,Tibi,Alicante,1614,30min
+46244,Torrent,Valencia,82208,30min
+03041,Benissa,Alicante,11005,30min
+12132,Vilanova d,Castellón,584,60min
+12038,Castellfor,Castellón,183,fora
+03901,Hondón de ,Alicante,2705,30min
+12126,La Vall d',Castellón,31660,30min
+12102,Santa Magd,Castellón,768,30min
+03063,Dénia,Alicante,42166,30min
+46114,Domeño,Valencia,708,60min
+03002,Agost,Alicante,4758,30min
+12100,Sant Mateu,Castellón,1963,60min
+03005,Albatera,Alicante,12279,30min
+46079,Calles,Valencia,355,60min
+46201,Puebla de ,Valencia,62,fora
+46241,Titaguas,Valencia,453,fora
+12043,Caudiel,Castellón,664,60min
+03123,Sax,Alicante,9845,30min
+46112,Chulilla,Valencia,665,60min
+03079,Ibi,Alicante,23489,30min
+46251,Vallada,Valencia,3039,30min
+12031,Borriol,Castellón,5360,30min
+03116,Salinas,Alicante,1601,30min
+12121,Traiguera,Castellón,1378,60min
+46131,Gandia,Valencia,74562,30min
+46181,Oliva,Valencia,25101,30min
+46191,Pedralba,Valencia,2778,30min
+46083,Carcaixent,Valencia,20358,30min
+03139,Villajoyos,Alicante,34673,30min
+46214,Riba-roja ,Valencia,22264,30min
+46252,Vallanca,Valencia,139,fora
+46228,Serra,Valencia,3124,60min
+03121,Santa Pola,Alicante,32306,30min
+12135,Villarreal,Castellón,50893,30min
+46156,Llombai,Valencia,2685,30min
+03050,El Campell,Alicante,28349,30min
+46108,Chera,Valencia,474,30min
+03120,San Miguel,Alicante,6034,30min
+12124,Vall d'Alb,Castellón,2807,60min
+03136,Vall de Ga,Alicante,571,60min
+46105,Cullera,Valencia,22145,30min
+03102,Pego,Alicante,10128,30min
+12142,Zucaina,Castellón,171,60min
+03056,Cocentaina,Alicante,11511,30min
+12082,Nules,Castellón,13103,30min
+12098,La Salzade,Castellón,704,60min
+12140,Viver,Castellón,1536,30min
+12091,Portell de,Castellón,197,fora
+03021,Banyeres d,Alicante,7068,30min
+46129,Fuenterrob,Valencia,682,30min
+03103,Penàguila,Alicante,292,60min
+46263,Zarra,Valencia,359,60min
+12027,Benicarló,Castellón,26912,30min
+46238,Tavernes d,Valencia,17201,30min
+03096,Onil,Alicante,7507,30min
+46174,Montesa,Valencia,1164,30min
+03090,Mutxamel,Alicante,25352,30min
+46179,Navarrés,Valencia,2968,30min
+12032,Burriana,Castellón,34683,30min
+46085,Carlet,Valencia,15598,30min
+03054,Castell de,Alicante,449,60min
+46172,Monserrat,Valencia,7878,30min
+03066,Elda,Alicante,52618,30min
+12055,Chodos,Castellón,112,fora
+12083,Olocau del,Castellón,119,fora
+12029,Benlloch,Castellón,1033,60min
+46018,Alcublas,Valencia,628,30min
+46104,Quatretond,Valencia,2212,60min
+46107,Chella,Valencia,2435,30min
+46255,Villalonga,Valencia,4270,30min
+12092,Puebla de ,Castellón,158,60min
+12111,Tírig,Castellón,419,60min
+12022,Bejís,Castellón,380,60min
+03114,La Romana,Alicante,2434,30min
+12020,Barracas,Castellón,162,30min
+03069,Finestrat,Alicante,6715,30min
+12046,Cirat,Castellón,201,60min
+46089,Casinos,Valencia,2777,30min
+46029,Algemesí,Valencia,27331,30min
+46258,Villar del,Valencia,3554,30min
+46076,Bugarra,Valencia,727,30min
+46073,Bolbaite,Valencia,1356,30min
+03122,San Vicent,Alicante,58385,30min
+12061,Forcall,Castellón,465,fora
+46150,Llutxent,Valencia,2345,60min
+03057,Confrides,Alicante,187,60min
+46233,Sollana,Valencia,4861,30min
+46178,Náquera,Valencia,6577,30min
+03106,Planes,Alicante,693,30min
+03124,Sella,Alicante,580,30min
+12041,Castillo d,Castellón,107,60min
+46231,Simat de l,Valencia,3329,30min
+03031,Benidorm,Alicante,68721,30min
+12079,Montanejos,Castellón,572,60min
+46158,Macastre,Valencia,1283,30min
+46136,Godelleta,Valencia,3533,30min
+03037,Benimantel,Alicante,483,60min
+46182,Olocau,Valencia,1771,30min
+12099,Sant Jordi,Castellón,972,60min
+12016,Artana,Castellón,1947,30min
+12028,Benicasim,Castellón,18192,30min
+03132,Torremanza,Alicante,661,30min
+46161,Marines,Valencia,1828,30min
+46190,Paterna,Valencia,70195,30min
+12025,Benafigos,Castellón,142,fora
+46093,Catadau,Valencia,2777,30min
+12045,Cinctorres,Castellón,391,fora
+46006,Albaida,Valencia,5900,30min
+12059,Fanzara,Castellón,267,30min
+12112,Todolella,Castellón,155,fora
+46139,Guadassuar,Valencia,5893,30min
+03018,Altea,Alicante,22290,30min
+46095,Caudete de,Valencia,700,30min
+12078,Montán,Castellón,370,30min
+03048,Callosa d',Alicante,7373,30min
+03023,Beneixama,Alicante,1685,30min
+46234,Sot de Che,Valencia,369,60min
+03076,Guardamar ,Alicante,15348,30min
+03081,Jalón,Alicante,2739,30min
+03046,Busot,Alicante,2978,30min
+46062,Benigánim,Valencia,5841,30min
+46202,La Pobla d,Valencia,24433,30min
+12009,Almazora,Castellón,26270,30min
+03903,Los Montes,Alicante,4968,30min
+03135,Vall de Eb,Alicante,216,30min
+03128,Teulada,Alicante,11112,30min
+46183,L'Olleria,Valencia,8281,30min
+12090,Pina de Mo,Castellón,111,30min
+12073,Ludiente,Castellón,141,60min
+03127,Tárbena,Alicante,646,60min
+03084,Lorcha,Alicante,578,60min
+46176,Montroy,Valencia,2867,30min
+12037,Castell de,Castellón,17,fora
+12006,Alcudia de,Castellón,190,30min
+12097,Sacañet,Castellón,67,60min
+03092,Muro de Al,Alicante,9324,30min
+46902,Gátova,Valencia,378,60min
+12117,Torreblanc,Castellón,5528,60min
+12902,Sant Joan ,Castellón,3159,30min
+03101,Pedreguer,Alicante,7699,30min
+12106,Soneja,Castellón,1447,30min
+12007,Alfondegui,Castellón,866,30min
+46045,Barxeta,Valencia,1601,30min
+12034,Càlig,Castellón,1950,30min
+46012,Alborache,Valencia,1160,30min
+12011,Almenara,Castellón,5998,30min
+12068,Herbés,Castellón,42,fora
+12085,Oropesa de,Castellón,9076,30min
+03113,Rojales,Alicante,16963,30min
+46204,Puig,Valencia,8630,30min
+46011,Alberic,Valencia,10526,30min
+46042,Aielo de M,Valencia,4618,30min
+12094,La Pobla T,Castellón,1211,30min
+46051,Benaguasil,Valencia,10988,30min
+03003,Agres,Alicante,565,30min
+46230,Silla,Valencia,18771,30min
+12017,Ayódar,Castellón,159,30min
+03015,Almoradí,Alicante,20803,30min
+03049,Callosa de,Alicante,19038,30min
+46031,Alginet,Valencia,13380,30min
+46019,L'Alcúdia,Valencia,12009,30min
+03098,Orxeta,Alicante,736,30min
+12018,Azuébar,Castellón,315,30min
+03047,Calpe,Alicante,22725,30min
+46088,Casas Baja,Valencia,164,fora
+03137,La Vall de,Alicante,846,30min
+03134,La Vall d',Alicante,167,60min
+12108,Sueras,Castellón,525,30min
+03107,Polop,Alicante,4965,60min
+12049,Costur,Castellón,524,60min
+03085,Llíber,Alicante,935,30min
+46081,Canals,Valencia,13587,30min
+12101,San Rafael,Castellón,469,60min
+46010,Albalat de,Valencia,1232,30min
+03051,Campo de M,Alicante,415,30min
+12021,Betxí,Castellón,5645,30min
+12116,Torralba d,Castellón,69,60min
+12125,Vall de Al,Castellón,269,30min
+46039,Anna,Valencia,2628,30min
+03094,La Nucia,Alicante,18603,30min
+46120,Estivella,Valencia,1456,30min
+12010,Almedíjar,Castellón,254,30min
+12008,Algimia de,Castellón,263,60min
+46026,Alfarp,Valencia,1544,30min
+46059,Benifairó ,Valencia,1571,30min
+03028,Beniarrés,Alicante,1118,30min
+46257,Villanueva,Valencia,7049,30min
+46236,Sumacàrcer,Valencia,1096,60min
+03071,Gata de Go,Alicante,6049,30min
+46098,Corbera,Valencia,3100,30min
+46060,Benifaió,Valencia,11962,30min
+12110,Teresa,Castellón,242,30min
+46143,Xeraco,Valencia,5655,30min
+12070,La Jana,Castellón,675,60min
+12131,Villamalur,Castellón,62,60min
+46159,Manises,Valencia,30919,30min
+03010,Alfafara,Alicante,410,30min
+46102,Quart de P,Valencia,24760,30min
+03055,Catral,Alicante,8639,30min
+03011,L'Alfàs de,Alicante,20482,30min
+12013,Arañuel,Castellón,150,60min
+12039,Castellnov,Castellón,917,30min
+03118,San Fulgen,Alicante,7855,30min
+03052,Cañada,Alicante,1220,30min
+46090,Castelló d,Valencia,2274,30min
+46200,La Pobla d,Valencia,2543,30min
+12103,Sarratella,Castellón,101,60min
+46141,Higueruela,Valencia,500,30min
+03064,Dolores,Alicante,7470,30min
+12056,Chóvar,Castellón,288,30min
+03013,Algueña,Alicante,1336,30min
+03004,Aigües,Alicante,963,30min
+03029,Binigembla,Alicante,490,30min
+12057,Eslida,Castellón,759,30min
+12065,Gaibiel,Castellón,188,30min
+46205,Puçol,Valencia,19495,30min
+03012,Algorfa,Alicante,2935,30min
+03097,Orba,Alicante,2174,30min
+46040,Antella,Valencia,1175,30min
+12024,Benafer,Castellón,152,30min
+46047,Bèlgida,Valencia,673,30min
+12114,Torás,Castellón,223,30min
+46146,Xeresa,Valencia,2168,30min
+03060,Quatretond,Alicante,122,30min
+03058,Cox,Alicante,7297,30min
+46209,Rafelguara,Valencia,2335,30min
+46046,Barx,Valencia,1277,30min
+12134,Vilar de C,Castellón,169,fora
+46004,Agullent,Valencia,2410,30min
+46021,Aldaia,Valencia,31864,30min
+46087,Casas Alta,Valencia,131,fora
+46171,Moncada,Valencia,21935,30min
+03075,El Castell,Alicante,217,60min
+12015,Argelita,Castellón,118,30min
+03130,Tollos,Alicante,57,60min
+03027,Beniardá,Alicante,232,60min
+12075,La Mata de,Castellón,166,fora
+46132,Genovés,Valencia,2842,30min
+12076,Matet,Castellón,84,30min
+12109,Tales,Castellón,825,30min
+03001,Adsubia,Alicante,632,30min
+12077,Moncofa,Castellón,6525,30min
+12088,Pavías,Castellón,61,60min
+12087,Palanques,Castellón,30,fora
+46030,Algimia de,Valencia,1011,30min
+46008,Albalat de,Valencia,3360,30min
+03008,Alcoleja,Alicante,173,30min
+03006,Alcalalí,Alicante,1278,30min
+46225,Sellent,Valencia,389,30min
+46187,Palma de G,Valencia,1631,30min
+12113,Toga,Castellón,100,30min
+46155,Llaurí,Valencia,1170,30min
+03032,Benifallim,Alicante,105,30min
+46002,Ador,Valencia,1508,30min
+03045,Bolulla,Alicante,420,60min
+46028,Algar de P,Valencia,481,30min
+12053,Chilches,Castellón,2679,30min
+46094,Catarroja,Valencia,28120,30min
+12901,Alquerías ,Castellón,4449,30min
+46177,Museros,Valencia,6458,30min
+03042,Benitachel,Alicante,4276,30min
+46063,Benimodo,Valencia,2268,30min
+12002,Aín,Castellón,127,30min
+03078,Hondón de ,Alicante,1198,30min
+46149,Losa del O,Valencia,507,30min
+12058,Espadilla,Castellón,71,60min
+03080,Jacarilla,Alicante,2022,30min
+46245,Torres Tor,Valencia,637,30min
+12060,Figueroles,Castellón,523,60min
+12119,La Torre d,Castellón,158,60min
+03025,Benferri,Alicante,1942,30min
+12069,Higueras,Castellón,54,30min
+46024,Alfara de ,Valencia,557,30min
+12118,Torrechiva,Castellón,81,30min
+03033,Benifato,Alicante,140,60min
+46196,Pinet,Valencia,157,60min
+03100,Parcent,Alicante,929,30min
+46056,Beniatjar,Valencia,223,30min
+46057,Benicolet,Valencia,569,30min
+46134,Gilet,Valencia,3324,30min
+03020,Balones,Alicante,131,60min
+12064,Fuentes de,Castellón,87,60min
+46185,Otos,Valencia,434,30min
+46035,Almussafes,Valencia,8967,30min
+12074,La Llosa,Castellón,951,30min
+03095,Ondara,Alicante,6894,30min
+03067,Facheca,Alicante,106,60min
+46203,La Pobla L,Valencia,4452,30min
+46022,Alfafar,Valencia,20890,30min
+46127,La Font d',Valencia,3794,30min
+03086,Millena,Alicante,237,30min
+03068,Famorca,Alicante,47,60min
+46049,Bellús,Valencia,304,30min
+46123,Favara,Valencia,2518,30min
+03035,Benilloba,Alicante,724,30min
+03072,Gaianes,Alicante,452,30min
+03119,Sant Joan ,Alicante,23915,30min
+03039,Benimassot,Alicante,106,60min
+46154,Llanera de,Valencia,1055,30min
+46197,Polinyà de,Valencia,2472,30min
+03111,Redován,Alicante,7869,30min
+03024,Benejúzar,Alicante,5402,30min
+46015,Alcàsser,Valencia,10039,30min
+03022,Benasau,Alicante,151,30min
+03073,Gorga,Alicante,249,30min
+12107,Sot de Fer,Castellón,415,30min
+46903,San Antoni,Valencia,9089,30min
+03016,Almudaina,Alicante,113,30min
+46116,L'Eliana,Valencia,18235,30min
+12095,Ribesalbes,Castellón,1174,30min
+46101,Quart de l,Valencia,988,30min
+46221,Salem,Valencia,424,30min
+46135,Godella,Valencia,13088,30min
+03138,El Verger,Alicante,4640,30min
+46013,Alboraya,Valencia,24454,30min
+46175,Montichelv,Valencia,584,30min
+12081,Navajas,Castellón,716,30min
+46043,Aielo de R,Valencia,155,30min
+46130,Gavarda,Valencia,1038,30min
+46189,El Palomar,Valencia,590,30min
+12063,Fuente la ,Castellón,52,60min
+46218,Rótova,Valencia,1294,60min
+46084,Càrcer,Valencia,1862,30min
+46119,L'Ènova,Valencia,887,30min
+46033,Almiserà,Valencia,262,60min
+46173,Montaverne,Valencia,1630,30min
+03030,Benidoleig,Alicante,1095,30min
+03026,Beniarbeig,Alicante,2092,30min
+46162,Masalavés,Valencia,1596,30min
+46193,Picanya,Valencia,11513,30min
+03074,Granja de ,Alicante,2580,30min
+46007,Albal,Valencia,16399,30min
+46157,La Llosa d,Valencia,3575,30min
+03061,Daya Nueva,Alicante,1737,30min
+46224,Segart,Valencia,163,30min
+03904,San Isidro,Alicante,1986,30min
+46126,Foios,Valencia,7367,30min
+46121,Estubeny,Valencia,121,30min
+46153,Llocnou de,Valencia,546,30min
+46240,Terrateig,Valencia,278,30min
+46164,Massamagre,Valencia,15952,30min
+46027,Alfarrasí,Valencia,1225,30min
+12136,La Vilavel,Castellón,3157,30min
+46023,Alfauir,Valencia,437,30min
+12133,Villanueva,Castellón,61,60min
+46100,Cotes,Valencia,333,30min
+46217,Rotglà i C,Valencia,1138,30min
+46160,Manuel,Valencia,2428,30min
+46211,Real de Ga,Valencia,2461,30min
+46003,Atzeneta d,Valencia,1165,30min
+03091,Murla,Alicante,470,30min
+46215,Riola,Valencia,1759,30min
+46165,Massanassa,Valencia,9667,30min
+46091,Castellone,Valencia,147,30min
+03115,Sagra,Alicante,408,30min
+03038,Benimarful,Alicante,409,30min
+12137,Villores,Castellón,39,fora
+46020,L'Alcúdia ,Valencia,5157,30min
+46110,Xirivella,Valencia,29623,30min
+03131,Tormos,Alicante,340,30min
+12123,Vallat,Castellón,49,30min
+03110,El Ràfol d,Alicante,653,30min
+03125,Senija,Alicante,584,30min
+46166,Meliana,Valencia,10822,30min
+03007,Alcocer de,Alicante,230,30min
+46086,Carrícola,Valencia,94,30min
+46125,Fortaleny,Valencia,1026,30min
+46009,Albalat de,Valencia,3977,30min
+46014,Albuixech,Valencia,4017,30min
+46210,Ráfol de S,Valencia,462,30min
+46052,Benavites,Valencia,619,30min
+46058,Benifairó ,Valencia,2186,30min
+03070,Formentera,Alicante,4191,30min
+46064,Benimuslem,Valencia,653,30min
+03034,Benijófar,Alicante,3322,30min
+46207,Rafelbuñol,Valencia,8941,30min
+46068,Benissoda,Valencia,430,30min
+03044,Bigastro,Alicante,6733,30min
+46186,Paiporta,Valencia,26088,30min
+03117,Sanet y Ne,Alicante,667,30min
+46195,Piles,Valencia,2685,30min
+46005,Alaquàs,Valencia,29561,30min
+46065,Beniparrel,Valencia,1952,30min
+46226,Sempere,Valencia,34,30min
+46082,Canet d'En,Valencia,6697,30min
+46199,La Pobla d,Valencia,7978,30min
+46078,Burjassot,Valencia,38024,30min
+03040,Benimeli,Alicante,418,30min
+46904,Benicull d,Valencia,1012,30min
+46016,Alcàntera ,Valencia,1291,30min
+03036,Benillup,Alicante,97,30min
+12120,Torre Endo,Castellón,180,60min
+46138,Guadasequi,Valencia,468,30min
+46103,Quartell,Valencia,1636,30min
+46075,Bufali,Valencia,161,30min
+46053,Beneixida,Valencia,651,30min
+46113,Daimús,Valencia,3117,30min
+03062,Daya Vieja,Alicante,690,30min
+46198,Potríes,Valencia,1046,30min
+46219,Rugat,Valencia,158,30min
+46048,Bellreguar,Valencia,4608,30min
+46055,Beniarjó,Valencia,1765,30min
+46242,Torrebaja,Valencia,411,fora
+46032,Almàssera,Valencia,7349,30min
+46163,Massalfass,Valencia,2469,30min
+46216,Rocafort,Valencia,7240,30min
+46168,Miramar,Valencia,2634,30min
+46169,Mislata,Valencia,43691,30min
+46067,Benisanó,Valencia,2260,30min
+46034,Almoines,Valencia,2414,30min
+46069,Benisuera,Valencia,194,30min
+46037,Alquería d,Valencia,1476,30min
+46227,Senyera,Valencia,1136,30min
+46208,Rafelcofer,Valencia,1345,30min
+46025,Alfara del,Valencia,3310,30min
+46192,Petrés,Valencia,997,30min
+46222,San Juan d,Valencia,504,30min
+46223,Sedaví,Valencia,10333,30min
+46122,Faura,Valencia,3538,30min
+46260,Vinalesa,Valencia,3420,30min
+03109,Rafal,Alicante,4498,30min
+46180,Novelé,Valencia,837,30min
+46151,Llocnou d',Valencia,916,30min
+46096,Cerdà,Valencia,331,30min
+46253,Vallés,Valencia,157,30min
+46140,Guardamar ,Valencia,526,30min
+46243,Torrella,Valencia,146,30min
+46074,Bonrepòs i,Valencia,3691,30min
+46188,Palmera,Valencia,1024,30min
+46137,La Granja ,Valencia,285,30min
+46237,Tavernes B,Valencia,9120,30min
+46054,Benetússer,Valencia,14799,30min
+03017,L'Alqueria,Alicante,493,30min
+46061,Beniflá,Valencia,457,30min
+12067,Geldo,Castellón,635,30min
+46066,Benirredrà,Valencia,1592,30min
+46152,Lugar Nuev,Valencia,118,30min
+46117,Emperador,Valencia,687,30min
