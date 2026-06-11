@@ -140,3 +140,24 @@ python3 scripts/19_municipis_cobertura.py
 ## 7. Com citar
 
 Escrivà-Llorca, F. (2026). *Cartografia de les Ensenyances Musicals a la Comunitat Valenciana* (v0.1) [Dataset, codi i mapa interactiu]. GitHub / Zenodo. https://doi.org/10.5281/zenodo.20041738
+
+## 8. Novetats v1.0 (Maig 2026)
+
+### 8.1 Sèrie temporal de subvencions (2022-2025)
+
+S'ha ampliat el proxy de finançament amb la sèrie 2022-2025 mitjançant OCR (Tesseract 5.5.2) dels PDFs del DOGV de 2022 i 2023, les pàgines dels quals usaven fonts no extraibles per text directe. Total: 1.448 registres.
+
+| Any | Centres | Total EUR |
+|---|---|---|
+| 2022 | 364 | 11.093.360 |
+| 2023 | 320 | 9.245.746 |
+| 2024 | 386 | 11.300.000 |
+| 2025 | 378 | 11.290.990 |
+
+**Hipòtesi Covid**: la caiguda de 44 centres i 1,85M EUR entre 2022 i 2023 és consistent amb un efecte retardat de la pandèmia sobre la xarxa d'escoles de música. Es preveu ampliar la sèrie a 2019-2021 quan es localitzin les resolucions corresponents al DOGV.
+
+### 8.2 Cens de centres amb Batxillerat d'Arts (via Música i Arts Escèniques)
+
+S'ha incorporat un cens de 46 IES públics de la Comunitat Valenciana que ofereixen la via de Música i Arts Escèniques de Batxillerat, extret de l'API `xacen-backend` de la Guia de Centres Docents de la GVA (codi de modalitat `05007701130`), enriquit amb coordenades del dataset `edu-centros`.
+
+**Nota metodològica**: oferir la via no implica impartir necessàriament la matèria *Història de la Música i de la Dansa* cada curs — depèn de la disponibilitat horària del professorat. El cens identifica centres on la matèria **pot** impartir-se.
