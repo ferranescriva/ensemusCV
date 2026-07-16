@@ -98,7 +98,7 @@ El creuament entre els polígons de cobertura i els 539 municipis (deduplicats) 
 - Municipis amb cobertura a 30 min en vehicle: 399 (74,0%)
 - Municipis amb cobertura entre 30 i 60 min: 103 (19,1%)
 - Municipis fora de cobertura a 60 min: 37 (6,9%)
-- Poblacio coberta a 60 min: 4.975.262 habitants (98,7% de la poblacio total CV)
+- Poblacio coberta a 60 min: 4.975.262 habitants (99,7% de la poblacio total CV)
 - Poblacio fora de cobertura: 16.944 habitants (1,3%)
 - Perfil dels municipis fora de cobertura: interior de Castelló (22 municipis) i interior de Valencia (15 municipis). Tots de menys de 2.500 habitants excepte Morella (2.430 hab.)
 
