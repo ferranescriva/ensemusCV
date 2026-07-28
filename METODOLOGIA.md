@@ -47,6 +47,14 @@ Capa cartogràfica de municipis de la Comunitat Valenciana (font ICV, via josema
 
 Shapefile de comunitats autònomes espanyoles (CodeForGermany/click_that_hood). Filtrat per cod_ccaa = '10'. Usat per al retall costaner de les isocrones.
 
+### 2.5 Marc normatiu de referència
+
+Les escoles d'ensenyament no formal de música i d'arts escèniques es regulen actualment pel **Decret 2/2022, de 14 de gener, del Consell** (DOGV núm. 9272, de 07.02.2022), que va substituir el Decret 91/2013 i va ampliar la figura a les arts escèniques (dansa, teatre i circ). Aquest decret ha estat modificat posteriorment pel **Decret llei 14/2025, de 26 de desembre, del Consell** i pel **Decret 46/2026, de 27 de març, del Consell** (DOGV núm. 10335, de 02.04.2026).
+
+La figura del centre integrat (centres que imparteixen conjuntament ensenyaments de règim general i ensenyaments artístics) està prevista a l'article 47 de la Llei orgànica 2/2006, de 3 de maig, d'educació.
+
+Aquest marc normatiu no constitueix una font de dades del projecte, però determina les categories administratives (tipus de centre, línies de subvenció) sobre les quals s'estructura el dataset. Les dades de subvencions poden respondre a convocatòries emparades en versions successives d'aquest marc; la clau de continuïtat entre anys és el CIF de l'entitat, no la convocatòria concreta.
+
 ---
 
 ## 3. Processament de dades
